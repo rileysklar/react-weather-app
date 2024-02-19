@@ -4,7 +4,6 @@ import Search from "./components/search/search";
 import Logo from "./components/logo";
 import CurrentWeather from "./components/current-weather/current-weather";
 import Forecast from "./components/forecast/forecast";
-import IpLookupComponent from "./components/ip-lookup";
 import { WEATHER_API_KEY, WEATHER_API_URL } from "./api";
 import Footer from "./components/footer/footer";
 
@@ -39,7 +38,6 @@ function App() {
       <div className="app-main">
         <div className="app-container">
           <Logo />
-          <img src=""></img>
           <Search onSearchChange={handleOnSearchChange} />
           {currentWeather && <CurrentWeather data={currentWeather} />}
           {forecast && <Forecast data={forecast} />}
