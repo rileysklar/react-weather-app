@@ -29,7 +29,12 @@ const CurrentWeather = ({ data }) => {
           />
         </div>
         <div className="bottom">
-          <p className="temperature">{Math.round(data.main.temp)}°C</p>
+          <p className="temperature">
+            {Math.round(data.main.temp)}°C{" "}
+            <span className="farenheit condition">
+              {Math.round((data.main.temp * 9) / 5 + 32)}°F
+            </span>
+          </p>
           <div className="details">
             <div className="parameter-row">
               <span className="parameter-label condition">Conditions</span>
