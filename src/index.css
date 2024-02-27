@@ -2,8 +2,9 @@ body {
   margin: 0;
   font-family: system-ui !important;
   color: #282828;
-  background-image: url(./topo-map.png);
+  background-image: url(./clouds.jpg);
   background-size: cover;
+
   background-color: rgb(232, 232, 232);
 }
 
@@ -20,6 +21,18 @@ code {
 .css-t3ipsp-control {
   border-radius: 100px !important;
   margin-top: -20px;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url(./clouds-tablet.jpg);
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    background-image: url(./clouds-mobile.jpg);
+  }
 }
 
 @media (max-width: 375px) {

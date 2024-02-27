@@ -1,9 +1,9 @@
 .weather {
   width: 400px;
   border-radius: 6px;
-  box-shadow: 2px 2px 20px 0px rgb(0 0 0 / 30%);
-  color: #dedede;
-  background-color: #06060691;
+  box-shadow: 2px 2px 20px 0px rgb(53 53 53 / 6%);
+  color: #353535;
+  background-color: #f7f7f76b;
   padding: 1.5em;
 }
 .top,
@@ -74,7 +74,7 @@
 }
 
 .condition {
-  color: rgb(152, 213, 60);
+  color: rgb(243, 243, 243);
 }
 
 .parameter-label.top {

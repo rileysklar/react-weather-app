@@ -1,6 +1,6 @@
 a {
   text-decoration: none;
-  color: #1596ff;
+  color: #8ae890;
   font-weight: 700;
 }
 
@@ -51,7 +51,10 @@ a {
   margin: 0 auto;
   width: 100%;
   font-size: 12px;
-  padding-bottom: 8px;
+  padding-bottom: 18px;
+  padding-top: 6px;
+  background-color: #f2f2f286;
+  border-radius: 8px 8px 0 0;
 }
 
 .ip-lookup {
